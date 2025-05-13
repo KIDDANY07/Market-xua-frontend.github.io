@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import hero1 from '../assets/hero.jpg';
-import hero2 from '../assets/hero.jpg';
-import hero3 from '../assets/hero.jpg';
-import hero4 from '../assets/hero.jpg';
-import hero5 from '../assets/hero.jpg';
-import hero6 from '../assets/hero.jpg';
-import hero7 from '../assets/hero.jpg';
+import hero1 from '../assets/ropa1.jpg';
+import hero2 from '../assets/ropa2.jpg';
+import hero3 from '../assets/ropa3.jpg';
+import hero4 from '../assets/ropa4.jpg';
+import hero5 from '../assets/ropa5.jpg';
+import hero6 from '../assets/ropa6.jpg';
+import hero7 from '../assets/ropa7.jpg';
 
 const Carousel = () => {
   const images = [hero1, hero2, hero3, hero4, hero5, hero6, hero7];

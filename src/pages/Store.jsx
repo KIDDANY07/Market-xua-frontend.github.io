@@ -13,49 +13,49 @@ const Store = () => {
         id: 0,
         name: "Producto 1",
         price: ((10 + 0 * 2) * exchangeRate).toFixed(0),
-        image: "https://cdn.pixabay.com/photo/2014/08/26/21/49/jeans-428614_1280.jpg", 
+        image: "https://images.pexels.com/photos/8030176/pexels-photo-8030176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
       },
       {
         id: 1,
         name: "Producto 2",
         price: ((10 + 1 * 2) * exchangeRate).toFixed(0),
-        image: "https://cdn.pixabay.com/photo/2014/08/26/21/49/jeans-428614_1280.jpg",
+        image: "https://images.pexels.com/photos/6461325/pexels-photo-6461325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       },
       {
         id: 2,
         name: "Producto 3",
         price: ((10 + 2 * 2) * exchangeRate).toFixed(0),
-        image: "https://cdn.pixabay.com/photo/2014/08/26/21/49/jeans-428614_1280.jpg",
+        image: "https://images.pexels.com/photos/7671168/pexels-photo-7671168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       },
       {
         id: 3,
         name: "Producto 4",
         price: ((10 + 3 * 2) * exchangeRate).toFixed(0),
-        image: "https://cdn.pixabay.com/photo/2014/08/26/21/49/jeans-428614_1280.jpg",
+        image: "https://images.pexels.com/photos/9899496/pexels-photo-9899496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       },
       {
         id: 4,
         name: "Producto 5",
         price: ((10 + 4 * 2) * exchangeRate).toFixed(0),
-        image: "https://cdn.pixabay.com/photo/2014/08/26/21/49/jeans-428614_1280.jpg",
+        image: "https://images.pexels.com/photos/9218538/pexels-photo-9218538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       },
       {
         id: 5,
         name: "Producto 6",
         price: ((10 + 5 * 2) * exchangeRate).toFixed(0),
-        image: "https://cdn.pixabay.com/photo/2014/08/26/21/49/jeans-428614_1280.jpg",
+        image: "https://images.pexels.com/photos/2002717/pexels-photo-2002717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       },
       {
         id: 6,
         name: "Producto 7",
         price: ((10 + 6 * 2) * exchangeRate).toFixed(0),
-        image: "https://cdn.pixabay.com/photo/2014/08/26/21/49/jeans-428614_1280.jpg",
+        image: "https://images.pexels.com/photos/2923922/pexels-photo-2923922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       },
       {
         id: 7,
         name: "Producto 8",
         price: ((10 + 7 * 2) * exchangeRate).toFixed(0),
-        image: "https://cdn.pixabay.com/photo/2014/08/26/21/49/jeans-428614_1280.jpg",
+        image: "https://images.pexels.com/photos/7959592/pexels-photo-7959592.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       },
     ],
   };
@@ -71,12 +71,14 @@ const Store = () => {
   return (
     <div className="bg-white text-gray-900 font-sans">
     
-      <header className="text-center py-16 px-6 bg-gradient-to-r from-gray-100 to-gray-200 rounded-b-xl shadow-xl mb-8">
+      <header className="text-center py-26 px-6 bg-[url('./assets/fondoheadertienda.jpg')] bg-cover bg-center bg-blur-sm shadow-xl mb-8">
         <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-yellow-500">
           {mockStore.name}
         </h1>
-        <p className="mt-4 text-xl text-black">Descubre los textiles más innovadores con calidad excepcional.</p>
+        <p className="mt-4 text-xl text-white">Descubre los textiles más innovadores con calidad excepcional.</p>
       </header>
+
+
 
       <main className="container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">

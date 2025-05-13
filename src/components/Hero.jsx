@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
 import heroImage from '../assets/hero.jpg'
+import { Link } from 'react-router'
 
 export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -48,10 +48,10 @@ export default function Hero() {
                 href="#"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Inicia plan
+                <Link to="/plan">Inicia plan</Link>
               </a>
               <a href="#" className="text-sm/6 font-semibold text-white">
-                gratuito <span aria-hidden="true">→</span>
+                <Link to="/plan">gratuito</Link> <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
